@@ -1,5 +1,5 @@
 Expert Weight Loss – Tailwind CSS Website
-A modern, responsive weight loss consultation website built using Tailwind CSS. It features a clean design, static navbar, animated image sections, and interactive UI elements for showcasing clinics, treatments, and consultation services.
+A modern, responsive weight loss consultation website built using Tailwind CSS. It features a clean design, animated image sections, and interactive UI elements for showcasing clinics, treatments, and consultation services.
 
 🚀 Features
 
@@ -20,7 +20,7 @@ HTML5
 
 Tailwind CSS v3+
 
-JavaScript (optional animations)
+JavaScript (optional for animations)
 
 📁 Folder Structure
 arduino
@@ -36,20 +36,3 @@ tailwind.config.js
 📦 Getting Started
 Install Tailwind CSS
 
-bash
-Copy
-Edit
-npm install -D tailwindcss
-npx tailwindcss init
-Configure Tailwind Paths
-
-js
-Copy
-Edit
-content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx,css}"]
-Run Tailwind
-
-bash
-Copy
-Edit
-npx tailwindcss -i ./src/styles/main.css -o ./public/output.css --watch
